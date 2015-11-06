@@ -1,117 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Garam's</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <style type="text/css">
-      td {
-        border: 0px;
-      }
-      td:first-child {
-        border: 0px;
-      }
-    </style>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+---
+layout: default
+---
 
-  </head>
-  <body>
+<div class="home">
 
-      <header>
-        <h1>Hello World</h1>
-        <p>Garam&#39;s</p>
-      </header>
+  <h1 class="page-heading">Posts</h1>
 
-      <div id="banner">
-        <ul style="display: inline; margin-left: 10%; padding: 1.5%; font-size: 27px;">
-          <li style="padding: 40px;"><a href="#">HOME</a></li>
-          <li style="padding: 40px;"><a href="#">HISTORY</a></li>
-          <li style="padding: 40px;"><a href="#">NEWSLETTER</a></li>
-        </ul>
-        <span id="logo"></span>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <!--<a href="https://github.com/garam901127" class="button fork"><strong>View On GitHub</strong></a>-->
-      </div><!-- end banner -->
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h3>
-<a id="---welcome-to-github-pages" class="anchor" href="#---welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>환영합니다 :)</h3>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-<p class="text-right">!!!!!</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Physical Education</h3>
-
-<p>
-  <code>2009.03</code> 연세대학교 체육교육학과 입학 <br>
-  <code>2009~2010</code> 체육계열 학생회 <br>
-  <code>2010~</code> 연세대학교 총학생회 체육부 <br>
-  <code>2014.02</code> 졸.업.
-</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>SAMSUNG SDS</h3>
-
-<p>
-  <code>2014.07</code> SCSA 3기 교육 (~2014.12 수료) <br>
-  <code>2015.02</code> SVP 수료 (5522) <br>
-  <code>~ 현재</code> 개발팀 사원
-</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>LACROSSE</h3>
-
-<p>
-  <code>2012.03</code> 연세대학교 라크로스 동아리 가입 <br>
-  <code>2012.05</code> 첫 경기 (경희대학교 친선경기) <br>
-  <code>2012.07</code> 여름리그 <br>
-  <code>2012.08</code> 2013 국가대표 선발전 <br>
-  <code>2012.11</code> 제 1회 대학리그 우승 <br>
-  <code>2013.06</code> 2013 ASPAC (China) <br>
-  <code>2013.07</code> FIL Women's Lacrosse WorldCup (Canada) <br>
-  <code>2013.08</code> 여름리그 <br>
-  <code>2013.11</code> 제 2회 대학리그 우승 <br>
-  <code>2014.01</code> 인도어리그 - LTE 우승 <br>
-  <code>2014.08</code> 여름리그 - SIGMA 우승 <br>
-  <code>2014.08</code> 2015 국가대표 선발전 <br>
-  <code>2015.02</code> 인도어리그 - SIGMA 우승 <br>
-  <code>2015.07</code> 2015 ASPAC (Thailand) - KOREA 3위 <br>
-  <code>2015.08</code> 여름리그 - SIGMA 우승
-</p>
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h3>
-<p>
-  <code>E-MAIL</code> garam901127@gmail.com
-</p>
-<table style="width: 100%; border:0px ">
-  <colgroup>
-    <col width="33%">
-    <col width="33%">
-    <col width="33%">
-  </colgroup>
-  <tr>
-    <td><img src="http://mcampus.yonsei.ac.kr/images/logo.jpg" /></td>
-    <td><img src="http://www.oss.kr/oss/images/apply/samsungSDS_ci.png" /></td>
-    <td><img src="http://www.lacrosse.or.kr/files/thumbs/gallery522/805" /></td>
-  </tr>
-</table>
-    </section>
-    <footer>
-      <p><small>Garam's BLOG</small></p>
-    </footer>
-  </div>
-  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
-  </body>
-</html>
+</div>
