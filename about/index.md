@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Let's me introduce myself
+title: About!
 image:
   feature: abstract-5.jpg
   credit: dargadgetz
