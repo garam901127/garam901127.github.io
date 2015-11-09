@@ -13,6 +13,8 @@ menu:
     url: '/'
   - title: 'About'
     url: '/about'
+  - title: 'Lacrosse'
+    url: '/about'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
