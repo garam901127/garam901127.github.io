@@ -1,6 +1,6 @@
-title:            Blog Title
-description:      Describe your website here.
-disqus_shortname: neohpstrtheme
+title:            Garam's
+description:      Garam's Blog 
+disqus_shortname: blog
 reading_time:     true
 words_per_minute: 200
 logo:             images/logo.png
@@ -28,26 +28,26 @@ menu:
 
 # Owner/author information
 owner:
-  name:           Your name
+  name:           Garam Na
   site:           http://aronbordin.com
   avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "Yonsei Univ. Physical Education / SAMSUNG SDS"
+  email:          garam901127@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: aron_bordin
-  facebook:
-  github: aron-bordin
+  facebook: /rkfka1127
+  github: garam901127
   stackexchange:
   linkedin:
-  instagram:
+  instagram: GARAM_1127
   flickr:
   tumblr:
   # google plus id, include the '+', eg +AronBordin
-  google_plus:    +yourid
+  google_plus:    +garam901127
 
 social:
   - title: "github"
-    url: "https://github.com/aron-bordin"
+    url: "https://github.com/garam901127"
   - title: "linkedin"
     url: "https://br.linkedin.com/in/aronbordin"
   - title: "youtube"
@@ -62,7 +62,7 @@ google_verify:
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Seoul
 future:      true
 highlighter: pygments
 markdown:    kramdown
